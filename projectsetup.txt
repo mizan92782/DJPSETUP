@@ -1,0 +1,102 @@
+I want to use this project as the future for project
+so i will guide how the project  structured planed.
+you task is to configure and set up full project as i want
+you will change current code file name and make code strutre as i want
+
+
+
+1. Authenticaion(a app strucure)
+** here i plannig how actually a app will organize
+folder----
+ models : contain all model file
+ views : contain all views file
+ repositories : database query logic (you will refactor my cureent code as organize like a senior softwar engineer)
+ services :  Business logic with static class function (follwo the senior software enginer strategy)
+ validator :  will used for custome validator
+ rls.py	Route definitions
+ signals.py	Django signals
+ tasks.py	Background tasks (Celery, etc.)
+ tests/	Unit and integration tests
+ admin.py	Django Admin configuration
+ apps.py	App configuration
+
+
+
+
+
+
+
+
+ 2.configuration
+  basiccaly i will used for smtip ,strip,and other services configure for admin ,
+  heres has anothe app stipe_config ,your task is to merger taht app in this app
+  and follow the strucre of my app strucure
+
+
+  3. docs
+  Here i will store documetn like diagram,note,test note etc
+
+4.logs  (loger system)
+ collect logs from full project of all api and fuctinolality and services
+ logs rulles
+  
+  a.api path  --- status code -- user id --- time -- othigns (life services etc)
+  b. user for diffent colore for diffenr status code so that in lgos terminal it can see perfectly
+  c. 3 line spach among logs in terminal so taht it can be read easily
+
+
+
+5.infra
+it is most important app,Its very crutial for me and you have aware of it.There are many infara,I explain you ,How you will configurea these ingra for full project
+  a. alartmanage ------ you will development full alart manage for email and telegram both for prod and dev (compose file)
+  b.celery ------ we will setup celery and celery beat for producito and dev and use in authetication
+  c. email ------ here  i will give full set and  other infrastructure and fucntiality
+  d.grafana ----  setup visualise for full logs and matrics
+  e. setup loki for push lgos to grafana
+  d. user promoteus as it use
+  g. usr promotail as it is
+
+  even if ohter infra i need to make standar my project you can use it with proper explanation
+
+
+  h. redis (most imporant)---------
+     user redis with class for with profix ,i give you a file you will read this file redis setup sytem and apply exacnt way i my project accoditbn to django sytax
+     file : /home/mizan/Authentication-Fastapi/app/infrastructure/redis
+
+    
+
+7. middleware this will use for write project middleware
+
+
+8.project
+this is main project name app... here we will  setup for full project
+
+
+9.scripsts
+--- thsi basically used for differens scripsts
+   a. nginx  (most important)---- her we will write server nginx setup,restart,test etc/nginx/site-availabe confiure and transer for site enable
+      here you file configure file  for app configure ,ther useing script bast file i will transfor in my serve using scripsts
+
+b. seeds
+      a. here wrie a abash file taht will run a  root seed file that will run all seed file with flush..write here bash file for seed root
+
+
+
+
+10: shared
+
+This file will us for  used share common code among developr
+  a. base : here will all common base model, base serialize etc
+  b. coanstanst  ; here will store all coanstanst that can use in full project
+  c. enums ;  here will use common enums
+  d. exception : here will write exception that wil can be use full project
+  e. pagination : here will configure for pagination
+  d. permisson : here will write all permisson code
+  f. resonse ; here will write all  response structured
+  h. throtling : here will write throatling / rate limiting configureation
+  i.utilities : here will wire commong utilities
+
+
+
+
+

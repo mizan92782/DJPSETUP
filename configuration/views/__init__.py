@@ -9,6 +9,5 @@ __all__ = [
     "EmailConfigurationViewSet",
     "StripeConfigurationViewSet",
     "StripePublicKeyView",
-    "CertificateTemplateViewSet",
-    "CertificateTemplatePublicView",
+ 
 ]

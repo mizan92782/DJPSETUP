@@ -11,5 +11,5 @@ from configuration.models.certificate_mod import CertificateTemplate
 __all__ = [
     "EmailConfiguration",
     "StripeConfiguration",
-    "CertificateTemplate",
+   
 ]
